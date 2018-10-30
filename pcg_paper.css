@@ -12,3 +12,97 @@
    Filename:         pcg_paper.css
    Supporting Files: 
  */
+
+
+/* WINDOW STYLES */
+
+html {
+  height: 100%;
+  background-color: rgb(209, 178, 121);
+}
+
+body {
+  width: 100%;
+  min-width: 640px;
+  max-width: 960px;
+  margin: auto;
+  min-height: 100%;
+  background-color: rgb(242, 218, 140);
+}
+
+/* HEADER STYLES */
+
+img#logo {
+  width: 100%;
+  display: block;
+}
+
+header nav {
+  float: left;
+  width: 100%;
+  padding-bottom: 13px;
+  background-color: rgb(114, 89, 9);
+}
+
+header nav ul li {
+  float: left;
+  display: block;
+  width: 15%;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  /* padding-left: 23px */
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(242, 218, 140);
+  ;
+}
+
+/* BODY STYLES */
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+p::first-letter {
+  font-size: 35px;
+}
+
+p {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+/* FOOTER STYLES */
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: rgb(114, 89, 9);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'PT Serif', serif;
+}
+
+footer a:link {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(242, 218, 140);
+}
