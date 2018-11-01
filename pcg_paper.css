@@ -100,7 +100,11 @@ h1 {
   font-size: 1em;
 }
 
+<<<<<<< HEAD
 #steps li {
+=======
+ul li {
+>>>>>>> master
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
