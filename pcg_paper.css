@@ -7,7 +7,7 @@
 
    Park City Gazette Style Sheet
    Author: Emmanuel Cortes
-   Date:    
+   Date: 10/29/18    
 
    Filename: pcg_paper.css
    Supporting Files: 10
@@ -15,7 +15,7 @@
 
 
 /* WINDOW STYLES */
-
+/* The minimum width of the page is set to 640px while the max width is set to 960px with the margins set to auto which allows the body to stay centered with the page. */
 html {
   height: 100%;
   background-color: rgb(209, 178, 121);
@@ -32,10 +32,11 @@ body {
 }
 
 /* HEADER STYLES */
-
-img#logo {
+/* The image at the top is set to take up 100% of the body's width while displayed as a block. The navigation menu is floated left with a width of 100% with some padding at the bottom. The text within the unordered list is aligned to the center of the menu with some space inbetween every link, also while hovering over the links they turn another color. */
+#logo {
   width: 100%;
   display: block;
+  position: relative;
 }
 
 header nav {
@@ -64,7 +65,7 @@ header a:hover {
 }
 
 /* BODY STYLES */
-
+/* All h1's are aligned to the center of the page. All paragraph elements are given different id names but for the most part, they all share the same styles. The image with the id set to 'lady' is floated to the right of the #local paragraph with the height set to 200px. Lastly the unordered list is also sharing most of the paragraph styles but the text is sized a little larger and they also do not have a list style type.  */
 h1 {
   text-align: center;
   font-family: 'Libre Baskerville', serif;
@@ -72,15 +73,44 @@ h1 {
   margin: auto;
 }
 
-p {
+#local {
+  clear: right;
   font-family: Verdana, Geneva, Arial, sans-serif;
   font-size: 1em;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* FOOTER STYLES */
+#lady {
+  float: right;
+  height: 200px;
+}
 
+#highway {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: 1em;
+}
+
+#cougar {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: 1em;
+}
+
+ul li {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: 1.2em;
+  list-style-type: none;
+}
+
+/* FOOTER STYLES */
+/* The footer is given the same background color that the navigation menu is given with some padding at the top and bottom with the text aligned to the center. The phone number is given the same hovering style as the navigation links */
 footer {
   color: white;
   text-align: center;
