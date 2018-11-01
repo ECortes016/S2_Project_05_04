@@ -6,11 +6,11 @@
    Case Problem 4
 
    Park City Gazette Style Sheet
-   Author: 
-   Date:   
+   Author: Emmanuel Cortes
+   Date:    
 
-   Filename:         pcg_paper.css
-   Supporting Files: 
+   Filename: pcg_paper.css
+   Supporting Files: 10
  */
 
 
@@ -28,6 +28,7 @@ body {
   margin: auto;
   min-height: 100%;
   background-color: rgb(242, 218, 140);
+  display: block;
 }
 
 /* HEADER STYLES */
@@ -46,10 +47,10 @@ header nav {
 
 header nav ul li {
   float: left;
-  display: block;
-  width: 15%;
   text-align: center;
   font-family: 'PT Serif', serif;
+  list-style: none;
+  width: 18%;
   /* padding-left: 23px */
 }
 
@@ -60,32 +61,23 @@ header a {
 
 header a:hover {
   color: rgb(242, 218, 140);
-  ;
 }
 
 /* BODY STYLES */
 
 h1 {
+  text-align: center;
   font-family: 'Libre Baskerville', serif;
-}
-
-p::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-p::first-letter {
-  font-size: 35px;
+  display: block;
+  margin: auto;
 }
 
 p {
   font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: 1em;
   padding-left: 10px;
   padding-right: 10px;
 }
-
-
 
 /* FOOTER STYLES */
 
